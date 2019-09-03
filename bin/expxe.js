@@ -45,7 +45,7 @@ program
 
 program
   .command('icon <svg> <dist>')
-  .description('generate vue component or font from svg')
+  .description('generate vue component or icon font from svg files')
   .option('-c, --componet', 'generate vue components')
   .option('-f, --font [fontName]', 'generate  icon font')
   .option('-a, --add', 'add new icon')
