@@ -1,0 +1,41 @@
+{
+  "name": "@expxe/cli",
+  "description": "local service for expxe-cli projects",
+  "version": "0.1.0",
+  "main": "lib/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ExpxePlatform/cli.git"
+  },
+  "keywords": [
+    "expxe",
+    "cli"
+  ],
+  "author": {
+    "name": "li xuefeng"
+  },
+  "bin": {
+    "expxe": "bin/expxe.js"
+  },
+  "dependencies": {
+    "address": "^1.0.3",
+    "autoprefixer": "^9.5.1",
+    "browserslist": "^4.5.4",
+    "cache-loader": "^2.0.1",
+    "chalk": "^2.4.2",
+    "cli-highlight": "^2.1.0",
+    "clipboardy": "^2.0.0",
+    "cliui": "^5.0.0",
+    "debug": "^4.1.1",
+    "file-loader": "^3.0.1",
+    "ora": "^3.4.0"
+  },
+  "deprecated": false,
+  "engines": {
+    "node": ">=8"
+  },
+  "license": "MIT"
+}
